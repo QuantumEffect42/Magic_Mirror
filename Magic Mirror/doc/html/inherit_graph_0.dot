@@ -1,0 +1,30 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="QWidget",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="AddEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAddEvent.html",tooltip="This class presents an interface to the user to create events to display on the calendar."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AdminAccountInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAdminAccountInfo.html",tooltip="Displays basic admin account information."];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="calendar::calendarWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcalendar_1_1calendarWidget.html",tooltip="responsible for drawing the calendar to the screen."];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Camera",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCamera.html",tooltip="This class configures the QCamera class and creates a QGrpahicsViewFinder so that the camera can be a..."];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ClockWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classClockWidget.html",tooltip="Formats the clock for the overlay."];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="CreateUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCreateUser.html",tooltip="Provides the GUi that admins can use to add new users to the system. It allows them to set username a..."];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="LoginPopup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLoginPopup.html",tooltip="Displays the login page."];
+  Node3 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="NewsWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNewsWidget.html",tooltip="This class handles the initialization of APIRequest class."];
+  Node3 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="UserAccountInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classUserAccountInfo.html",tooltip="Displayed basic account information."];
+  Node3 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="UserSystemWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classUserSystemWidget.html",tooltip="handles which page to display depending on if there is a user logged in and what kind of user is logg..."];
+  Node3 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="WeatherWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classWeatherWidget.html",tooltip="This class implements all the necessary elements to draw the weather information to the screen."];
+}

@@ -1,0 +1,4 @@
+/home/nolan/CMake Projects/Magic Mirror/build/CMakeFiles/Magic_Mirror.dir
+/home/nolan/CMake Projects/Magic Mirror/build/CMakeFiles/edit_cache.dir
+/home/nolan/CMake Projects/Magic Mirror/build/CMakeFiles/rebuild_cache.dir
+/home/nolan/CMake Projects/Magic Mirror/build/CMakeFiles/Magic_Mirror_autogen.dir

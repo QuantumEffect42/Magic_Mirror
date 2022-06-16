@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+ffc08e042784b1dd67eda05d21b97379 CMakeFiles/Magic_Mirror_autogen
